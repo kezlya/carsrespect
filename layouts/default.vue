@@ -1,7 +1,13 @@
 <template>
   <v-app light>
-    <v-toolbar class="white">
+    <v-toolbar color="white" elevation-4 fixed scroll-off-screen>
       <v-toolbar-title>CarsRespect.com</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-toolbar-items class="hidden-sm-and-down">
+        <v-btn flat>Link One</v-btn>
+        <v-btn flat>Link Two</v-btn>
+        <v-btn flat>Link Three</v-btn>
+      </v-toolbar-items>
     </v-toolbar>
     <v-content>
       <nuxt />
