@@ -26,9 +26,9 @@
 
     <section>
       <v-layout column wrap class="py-5" align-center white>
+        <a id="services"></a>
         <v-flex xs12 sm4 class="my-3">
           <div class="text-xs-center">
-            <a id="services"></a>
             <h2 class="display-2 py-2">Services</h2>
             <span class="subheading">
               We service all makes and models. Domestic and Foreign.
@@ -62,8 +62,8 @@
     <section>
       <v-container fill-height pa-5>
         <v-layout row wrap class="pa-2" align-center>
+          <a id="sale"></a>
           <v-flex xs12 pb-5 ml-2>
-            <a id="sale"></a>
             <div class="text-xs-center">
               <h2 class="display-2 py-2">Cars for sale</h2>
               <span class="subheading">
@@ -109,8 +109,8 @@
     <section class="white">
       <v-container fill-height px-5>
         <v-layout row wrap class="pa-2" align-center>
+          <a id="promo"></a>
           <v-flex xs12 pb-5 ml-2>
-            <a id="promo"></a>
             <div class="text-xs-center">
               <h2 class="display-2">Promotions</h2>
             </div>
@@ -154,51 +154,39 @@
               </v-card-text>
             </v-card>
           </v-flex>
-
-
         </v-layout>
       </v-container>
     </section>
 
     <section>
-      <v-container fill-height pa-5 >
+      <v-parallax src="engine.jpg">
+        <v-container fill-height pa-3>
+          <v-layout row wrap class="pa-2" align-center>
+            <a id="partners"></a>
+            <v-flex xs12 pb-5 ml-2>
+              <div class="text-xs-center">
+                <h2 class="display-2 py-2">Partners</h2>
+                <span class="title">
+                  We are selling only quality brands.
+                </span>
+              </div>
+            </v-flex>
 
-        <v-layout
-          row
-          wrap
-          class="pa-2"
-          align-center
-          >
-          <v-flex xs12 class="my-3">
-            <div class="text-xs-center">
-              <h2 class="headline"><a id="partners"></a>Partners</h2>
-              <span class="body-1">
-                SELLING ONLY QUALITY BRANDS
-              </span>
-            </div>
-          </v-flex>
+            <v-flex xs12 md4 >
+                <v-img src="partners/castrol.png" alt="castrol" width="200px" height="150px"></v-img>
+            </v-flex>
 
-          <v-flex xs12 md6 lg4 pa-2>
-            <v-card flat tile class="text-xs-center justify-center white elevation-4 pa-5 mt-5" width="Fill">
-              <v-img src="inspection.png" alt="Inspection" height="200px" contain ></v-img>
-            </v-card>
-          </v-flex>
+            <v-flex xs12 md4>
+                <v-img src="partners/bapdahl.png" alt="bapdahl" width="200px" height="150px" ></v-img>
+            </v-flex>
 
-          <v-flex xs12 md6 lg4 pa-2>
-            <v-card flat tile class="text-xs-center justify-center white elevation-4 pa-5 mt-5" width="Fill">
-              <v-img src="inspection.png" alt="Inspection" height="200px" contain ></v-img>
-            </v-card>
-          </v-flex>
+            <v-flex xs12 md4>
+                <v-img src="partners/autozone.png" alt="autozone" width="200px" height="150px" ></v-img>
+            </v-flex>
 
-          <v-flex xs12 md6 lg4 pa-2>
-            <v-card flat tile class="text-xs-center justify-center white elevation-4 pa-5 mt-5" width="Fill">
-              <v-img src="inspection.png" alt="Inspection" height="200px" contain ></v-img>
-            </v-card>
-          </v-flex>
-
-        </v-layout>
-      </v-container>
-
+          </v-layout>
+        </v-container>
+      </v-parallax>
     </section>
 
     <section>
@@ -213,7 +201,7 @@
                 <div class="headline">Contact us</div>
               </v-card-title>
               <v-card-text>
-                We are open <b>Monday - Friday 8am - 5pm </b>
+                We are open:   <b>Monday - Friday 8am - 5pm </b>
               </v-card-text>
               <v-list class="transparent">
                 <v-list-tile>
@@ -221,7 +209,7 @@
                     <v-icon class="blue--text text--lighten-2">phone</v-icon>
                   </v-list-tile-action>
                   <v-list-tile-content>
-                    <v-list-tile-title>777-867-5309</v-list-tile-title>
+                    <v-list-tile-title>213-537-7737</v-list-tile-title>
                   </v-list-tile-content>
                 </v-list-tile>
                 <v-list-tile>
