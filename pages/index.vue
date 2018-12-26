@@ -96,7 +96,7 @@
                   </div>
                 </v-card-title>
                 <v-card-actions>
-                  <v-btn v-if="car.action1" flat color="indigo">{{car.action1}}</v-btn>
+                  <v-btn v-if="car.action1" flat :href="'/car/?name='+car.name" color="indigo">{{car.action1}}</v-btn>
                   <v-btn v-if="car.action2" flat href="#contact" color="indigo">{{car.action2}}</v-btn>
                 </v-card-actions>
               </v-card>
