@@ -1,7 +1,7 @@
 <template>
   <div>
     <section>
-      <v-container pa-0 white>
+      <v-container pa-0 fluid white>
         <v-layout
             row
             wrap
@@ -13,11 +13,11 @@
               <div class="car-divider">
 
               </div>
-              <v-img src="inspection.png"></v-img>
+  
               <v-img src="inspection.png"></v-img>
 
 
-              <v-card fluid class="rounded-card elevation-0 transparent fixed" style="top:60px;right:0;">
+              <v-card fluid class="rounded-card elevation-0 transparent fixed" style="bottom:20px;right:0;">
 
                 <v-card-text class="pa-3">
                   <v-layout wrap column >
@@ -80,7 +80,7 @@
                         </v-card>
                     </v-dialog>
                   </v-layout>
-                  
+
                 </v-card-text>
               </v-card>
               <div class="fixed pa-3" style="bottom:0; left:0px;">
@@ -97,7 +97,7 @@
 
 
 
-      
+
     </section>
 
   </div>

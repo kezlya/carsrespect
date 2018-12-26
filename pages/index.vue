@@ -7,15 +7,15 @@
           <v-layout row align-center justify-center stuck>
             <v-flex sm12 md12 lg9>
             </v-flex>
-            <v-flex sm12 md12 lg4 align-center justify-center mt-5>
+            <v-flex sm12 md12 lg6 align-center justify-center mt-5>
               <v-card flat tile class="text-xs-center justify-center white elevation-4 pa-2 mt-4" width="Fill">
-                <v-img src="inspection.png" alt="Inspection" height="200" contain ></v-img>
+                <img src="inspection.png" alt="Inspection" height="200" contain />
                 <v-card-title class="title-xs-center">
                     <h3 class="display-1 pa-2">Full service auto repair shop</h3>
                 </v-card-title>
                 <v-card-text>
                   <h3 class="text-center">All mechanics are Certified</h3>
-                  <span>just 7mil away </span><v-btn>Get directions</v-btn>
+                  <span>Just 7 miles away </span><v-btn>Get directions</v-btn>
                 </v-card-text>
               </v-card>
             </v-flex>
@@ -42,10 +42,9 @@
                 <v-flex xs12 md4>
                   <v-card class="elevation-0 transparent">
                     <v-card-title primary-title class="layout justify-center">
-                      <v-layout>
+                      <v-layout class="align-center">
                         <v-flex xs5>
-                          <v-img :src="'services/'+service.split(' ').join('')+'.png'" class="center-right" :alt="service" height="64px" contain></v-img>
-                        </v-flex>
+                          <v-img :src="'services/'+service.split(' ').join('')+'.png'" class="center-right" :alt="service" height="64px" contain></v-img>                        </v-flex>
                         <v-flex xs6 text-xs-left>
                           <div class="headline py-3">{{service}}</div>
                         </v-flex>
@@ -76,8 +75,8 @@
           <template v-for="car in cars">
             <v-flex xs12 md6 lg4 pa-2>
               <v-card>
-                <v-img height="200px" :src="'cars/'+car.name+'/1.jpg'">
-                  <v-container fill-height fluid>
+                <v-img height="200px" :src="require('static/cars/'+car.name+'/1.jpg')">
+                  <v-container fill-height fluid pa-1>
                     <v-layout fill-height>
                       <v-flex xs12 align-end flexbox>
                         <v-chip class="subheading red--text white elevation-2"><strike>{{car.oldPrice}}</strike>  </v-chip>
@@ -267,6 +266,13 @@ export default {
         "Inspection",
       ],
       cars:[
+        {
+          name: "mazda",
+          title:"2012 Mazda Miata MX5 17K mil",
+          oldPrice: "$15.000",
+          newPrice: "$9.500",
+          desc: "Grand Touring; CONVERTIBLE 2-DR; 2.0L L4 DOHC 16V; 6-Speed Manual; RWD"
+        },
         {
           name: "mazda",
           title:"2012 Mazda Miata MX5 17K mil",
