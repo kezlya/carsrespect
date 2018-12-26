@@ -31,7 +31,7 @@
           <div class="text-xs-center">
             <h2 class="display-2 py-2">Services</h2>
             <span class="subheading">
-              We service all makes and models. Domestic and Foreign.
+              We service all makes and models both domestic and foreign.
             </span>
           </div>
         </v-flex>
@@ -96,7 +96,7 @@
                   </div>
                 </v-card-title>
                 <v-card-actions>
-                  <v-btn v-if="car.action1" flat :href="'/car/?name='+car.name" color="indigo">{{car.action1}}</v-btn>
+                  <v-btn v-if="car.action1" flat :href="'/car?name='+car.name" color="indigo">{{car.action1}}</v-btn>
                   <v-btn v-if="car.action2" flat href="#contact" color="indigo">{{car.action2}}</v-btn>
                 </v-card-actions>
               </v-card>
@@ -285,7 +285,7 @@ export default {
           action2: "test drive"
         },
         {
-          name: "ram-truck",
+          name: "ram_truck",
           title:"2013 Dodge RAM 1500 4x4",
           oldPrice: "$20,000",
           newPrice: "$19,000",
@@ -294,7 +294,7 @@ export default {
           action2: "test drive"
         },
         {
-          name: "ram-van",
+          name: "ram_van",
           title:"2016 RAM Promaster",
           newPrice: "$14,000",
           desc: "City cargo van; FWD; Gas; 4 cylinders",
@@ -302,10 +302,10 @@ export default {
           action2: "test drive"
         },
         {
-          name: "honda-crz",
+          name: "honda_crz",
           title:"2016 Honda CRZ",
-          oldPrice: "$9,500",
-          newPrice: "$10,500",
+          oldPrice: "$10,500",
+          newPrice: "$9,500",
           desc: "2 doors; 36mpg",
           action1: "view",
           action2: "test drive"

@@ -1,7 +1,7 @@
 const pkg = require('./package')
 
 module.exports = {
-  mode: 'universal',
+  mode: 'spa',
 
   /*
   ** Headers of the page
@@ -52,6 +52,11 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend (config, { isDev, isClient }) {
+      //if (!isDev) {
+        // relative links, please.
+        config.output.publicPath = '/_nuxt/'
+      //}
+      return config;
     }
   }
 }
