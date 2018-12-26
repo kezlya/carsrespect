@@ -8,10 +8,10 @@
 
           <v-layout row align-center justify-center stuck>
 
-            <v-flex sm12 md3 lg9>
+            <v-flex sm12 md12 lg9>
             </v-flex>
 
-            <v-flex sm12 md9 lg3 align-center justify-center mt-5>
+            <v-flex sm12 md12 lg3 align-center justify-center mt-5>
               <v-card flat tile class="text-xs-center justify-center white elevation-4 pa-3 mt-5" width="Fill">
                 <v-img src="inspection.png" alt="Inspection" height="200" contain ></v-img>
                 <v-card-title  class="title-xs-center">
@@ -36,66 +36,155 @@
         class="py-5"
         align-center
         white
-      >
+        >
         <v-flex xs12 sm4 class="my-3">
           <div class="text-xs-center">
             <h2 class="headline py-2">Services</h2>
-            <span class="subheading">
+            <span class="subheading"><a id="services"></a>
               We service all makes and models. European, Asian, Domestic
             </span>
           </div>
         </v-flex>
+
         <v-flex xs12>
           <v-container grid-list-xl>
             <v-layout row wrap align-center>
+
               <v-flex xs12 md4>
                 <v-card class="elevation-0 transparent">
                   <v-card-title primary-title class="layout justify-center">
-                    <v-icon x-large class="blue--text text--lighten-2">flash_on</v-icon>
-                    <div class="headline">Fast development</div>
+                    <v-layout>
+                      <v-flex xs5>
+                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
+                      </v-flex>
+                      <v-flex xs6 text-xs-left>
+                        <div class="headline py-3">Fast development</div>
+                      </v-flex>
+                    </v-layout>
                   </v-card-title>
                 </v-card>
               </v-flex>
+
               <v-flex xs12 md4>
                 <v-card class="elevation-0 transparent">
                   <v-card-title primary-title class="layout justify-center">
-                    <v-icon x-large class="blue--text text--lighten-2">flash_on</v-icon>
-                    <div class="headline">Fast development</div>
+                    <v-layout>
+                      <v-flex xs5>
+                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
+                      </v-flex>
+                      <v-flex xs6 text-xs-left>
+                        <div class="headline py-3">Fast development</div>
+                      </v-flex>
+                    </v-layout>
                   </v-card-title>
                 </v-card>
               </v-flex>
+
               <v-flex xs12 md4>
                 <v-card class="elevation-0 transparent">
                   <v-card-title primary-title class="layout justify-center">
-                    <v-icon x-large class="blue--text text--lighten-2">flash_on</v-icon>
-                    <div class="headline">Fast development</div>
+                    <v-layout>
+                      <v-flex xs5>
+                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
+                      </v-flex>
+                      <v-flex xs6 text-xs-left>
+                        <div class="headline py-3">Fast development</div>
+                      </v-flex>
+                    </v-layout>
                   </v-card-title>
                 </v-card>
               </v-flex>
+
               <v-flex xs12 md4>
                 <v-card class="elevation-0 transparent">
                   <v-card-title primary-title class="layout justify-center">
-                    <v-icon x-large class="blue--text text--lighten-2">flash_on</v-icon>
-                    <div class="headline">Fast development</div>
+                    <v-layout>
+                      <v-flex xs5>
+                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
+                      </v-flex>
+                      <v-flex xs6 text-xs-left>
+                        <div class="headline py-3">Fast development</div>
+                      </v-flex>
+                    </v-layout>
                   </v-card-title>
                 </v-card>
               </v-flex>
+
               <v-flex xs12 md4>
                 <v-card class="elevation-0 transparent">
                   <v-card-title primary-title class="layout justify-center">
-                    <v-icon x-large class="blue--text text--lighten-2">flash_on</v-icon>
-                    <div class="headline">Fast development</div>
+                    <v-layout>
+                      <v-flex xs5>
+                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
+                      </v-flex>
+                      <v-flex xs6 text-xs-left>
+                        <div class="headline py-3">Fast development</div>
+                      </v-flex>
+                    </v-layout>
                   </v-card-title>
                 </v-card>
               </v-flex>
+
               <v-flex xs12 md4>
                 <v-card class="elevation-0 transparent">
                   <v-card-title primary-title class="layout justify-center">
-                    <v-icon x-large class="blue--text text--lighten-2">flash_on</v-icon>
-                    <div class="headline">Fast development</div>
+                    <v-layout>
+                      <v-flex xs5>
+                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
+                      </v-flex>
+                      <v-flex xs6 text-xs-left>
+                        <div class="headline py-3">Fast development</div>
+                      </v-flex>
+                    </v-layout>
                   </v-card-title>
                 </v-card>
               </v-flex>
+
+              <v-flex xs12 md4>
+                <v-card class="elevation-0 transparent">
+                  <v-card-title primary-title class="layout justify-center">
+                    <v-layout>
+                      <v-flex xs5>
+                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
+                      </v-flex>
+                      <v-flex xs6 text-xs-left>
+                        <div class="headline py-3">Fast development</div>
+                      </v-flex>
+                    </v-layout>
+                  </v-card-title>
+                </v-card>
+              </v-flex>
+
+              <v-flex xs12 md4>
+                <v-card class="elevation-0 transparent">
+                  <v-card-title primary-title class="layout justify-center">
+                    <v-layout>
+                      <v-flex xs5>
+                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
+                      </v-flex>
+                      <v-flex xs6 text-xs-left>
+                        <div class="headline py-3">Fast development</div>
+                      </v-flex>
+                    </v-layout>
+                  </v-card-title>
+                </v-card>
+              </v-flex>
+
+              <v-flex xs12 md4>
+                <v-card class="elevation-0 transparent">
+                  <v-card-title primary-title class="layout justify-center">
+                    <v-layout>
+                      <v-flex xs5>
+                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
+                      </v-flex>
+                      <v-flex xs6 text-xs-left>
+                        <div class="headline py-3">Fast development</div>
+                      </v-flex>
+                    </v-layout>
+                  </v-card-title>
+                </v-card>
+              </v-flex>
+
             </v-layout>
           </v-container>
         </v-flex>
@@ -112,13 +201,9 @@
           align-center
           >
           <v-flex xs12 pb-5 ml-2>
-              <v-layout>
-                <v-flex xs12 md4>
-                  <v-card class="justify-start white pa-2 elevation-1" style="float:left;">
-                    <span class="headline" >For sale</span>
-                  </v-card>
-                </v-flex>
-              </v-layout>
+            <div class="text-xs-center">
+              <h2 class="headline py-2"><a id="sale"></a>For sale</h2>
+          </div>
           </v-flex>
 
           <v-flex xs12 md6 lg4 pa-2>
@@ -304,7 +389,7 @@
           >
           <v-flex xs12 class="my-3">
             <div class="text-xs-center">
-              <h2 class="headline">Promotions</h2>
+              <h2 class="headline"><a id="promo"></a>Promotions</h2>
               <span class="subheading">
                 Cras facilisis mi vitae nunc
               </span>
@@ -366,7 +451,7 @@
           >
           <v-flex xs12 class="my-3">
             <div class="text-xs-center">
-              <h2 class="headline">Partners</h2>
+              <h2 class="headline"><a id="partners"></a>Partners</h2>
               <span class="body-1">
                 SELLING ONLY QUALITY BRANDS
               </span>
@@ -397,7 +482,7 @@
     </section>
 
     <section>
-
+<a id="contact"></a>
         <v-layout row wrap justify-center align-center white class="my-0 pa-0">
           <v-flex xs12 sm8>
             <iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d48957.93166082604!2d-75.23429345152195!3d39.921909032951184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x89c6b7d8d4b54beb%3A0x89f514d88c3e58c1!2sPhiladelphia%2C+Pennsylvania%2C+USA!3m2!1d39.9525839!2d-75.1652215!4m5!1s0x89c6c3f2d28dcdfb%3A0x352e216800820a8c!2s522+Ellis+Ave+Unit+1-C%2C+Darby%2C+PA+19023%2C+USA!3m2!1d39.9112115!2d-75.2572854!5e0!3m2!1sen!2sru!4v1545740728637" height="450px" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -455,5 +540,7 @@ export default {
 </script>
 
 <style>
-
+.center-right .v-image__image{
+  background-position: center right !important;
+}
 </style>
