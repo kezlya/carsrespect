@@ -1,190 +1,59 @@
 <template>
   <div style="background-color: #f7f7f7;">
+
     <section >
-
       <v-parallax src="subaru.png" height="600">
-
         <v-container>
-
           <v-layout row align-center justify-center stuck>
-
             <v-flex sm12 md12 lg9>
             </v-flex>
-
-            <v-flex sm12 md12 lg3 align-center justify-center mt-5>
-              <v-card flat tile class="text-xs-center justify-center white elevation-4 pa-3 mt-5" width="Fill">
+            <v-flex sm12 md12 lg4 align-center justify-center mt-5>
+              <v-card flat tile class="text-xs-center justify-center white elevation-4 pa-2 mt-4" width="Fill">
                 <v-img src="inspection.png" alt="Inspection" height="200" contain ></v-img>
-                <v-card-title  class="title-xs-center">
+                <v-card-title class="title-xs-center">
                     <h3 class="display-1 pa-2">Full service auto repair shop</h3>
-                    <p class="mt-2 body-1">Located two hours south of Sydney in the Southern Highlands of New South Wales, ...</p>
                 </v-card-title>
+                <v-card-text>
+                  <h3 class="text-center">All mechanics are Certified</h3>
+                  <span>just 7mil away </span><v-btn>Get directions</v-btn>
+                </v-card-text>
               </v-card>
             </v-flex>
-
           </v-layout>
-
         </v-container>
-
       </v-parallax>
     </section>
 
     <section>
-
-      <v-layout
-        column
-        wrap
-        class="py-5"
-        align-center
-        white
-        >
+      <v-layout column wrap class="py-5" align-center white>
         <v-flex xs12 sm4 class="my-3">
           <div class="text-xs-center">
-            <h2 class="headline py-2">Services</h2>
-            <span class="subheading"><a id="services"></a>
-              We service all makes and models. European, Asian, Domestic
+            <a id="services"></a>
+            <h2 class="display-2 py-2">Services</h2>
+            <span class="subheading">
+              We service all makes and models. Domestic and Foreign.
             </span>
           </div>
         </v-flex>
-
         <v-flex xs12>
           <v-container grid-list-xl>
             <v-layout row wrap align-center>
-
-              <v-flex xs12 md4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-title primary-title class="layout justify-center">
-                    <v-layout>
-                      <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
-                      </v-flex>
-                      <v-flex xs6 text-xs-left>
-                        <div class="headline py-3">Fast development</div>
-                      </v-flex>
-                    </v-layout>
-                  </v-card-title>
-                </v-card>
-              </v-flex>
-
-              <v-flex xs12 md4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-title primary-title class="layout justify-center">
-                    <v-layout>
-                      <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
-                      </v-flex>
-                      <v-flex xs6 text-xs-left>
-                        <div class="headline py-3">Fast development</div>
-                      </v-flex>
-                    </v-layout>
-                  </v-card-title>
-                </v-card>
-              </v-flex>
-
-              <v-flex xs12 md4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-title primary-title class="layout justify-center">
-                    <v-layout>
-                      <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
-                      </v-flex>
-                      <v-flex xs6 text-xs-left>
-                        <div class="headline py-3">Fast development</div>
-                      </v-flex>
-                    </v-layout>
-                  </v-card-title>
-                </v-card>
-              </v-flex>
-
-              <v-flex xs12 md4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-title primary-title class="layout justify-center">
-                    <v-layout>
-                      <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
-                      </v-flex>
-                      <v-flex xs6 text-xs-left>
-                        <div class="headline py-3">Fast development</div>
-                      </v-flex>
-                    </v-layout>
-                  </v-card-title>
-                </v-card>
-              </v-flex>
-
-              <v-flex xs12 md4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-title primary-title class="layout justify-center">
-                    <v-layout>
-                      <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
-                      </v-flex>
-                      <v-flex xs6 text-xs-left>
-                        <div class="headline py-3">Fast development</div>
-                      </v-flex>
-                    </v-layout>
-                  </v-card-title>
-                </v-card>
-              </v-flex>
-
-              <v-flex xs12 md4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-title primary-title class="layout justify-center">
-                    <v-layout>
-                      <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
-                      </v-flex>
-                      <v-flex xs6 text-xs-left>
-                        <div class="headline py-3">Fast development</div>
-                      </v-flex>
-                    </v-layout>
-                  </v-card-title>
-                </v-card>
-              </v-flex>
-
-              <v-flex xs12 md4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-title primary-title class="layout justify-center">
-                    <v-layout>
-                      <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
-                      </v-flex>
-                      <v-flex xs6 text-xs-left>
-                        <div class="headline py-3">Fast development</div>
-                      </v-flex>
-                    </v-layout>
-                  </v-card-title>
-                </v-card>
-              </v-flex>
-
-              <v-flex xs12 md4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-title primary-title class="layout justify-center">
-                    <v-layout>
-                      <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
-                      </v-flex>
-                      <v-flex xs6 text-xs-left>
-                        <div class="headline py-3">Fast development</div>
-                      </v-flex>
-                    </v-layout>
-                  </v-card-title>
-                </v-card>
-              </v-flex>
-
-              <v-flex xs12 md4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-title primary-title class="layout justify-center">
-                    <v-layout>
-                      <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
-                      </v-flex>
-                      <v-flex xs6 text-xs-left>
-                        <div class="headline py-3">Fast development</div>
-                      </v-flex>
-                    </v-layout>
-                  </v-card-title>
-                </v-card>
-              </v-flex>
-
+              <template v-for="service in services">
+                <v-flex xs12 md4>
+                  <v-card class="elevation-0 transparent">
+                    <v-card-title primary-title class="layout justify-center">
+                      <v-layout>
+                        <v-flex xs5>
+                          <v-img :src="'services/'+service.split(' ').join('')+'.png'" class="center-right" :alt="service" height="64px" contain></v-img>
+                        </v-flex>
+                        <v-flex xs6 text-xs-left>
+                          <div class="headline py-3">{{service}}</div>
+                        </v-flex>
+                      </v-layout>
+                    </v-card-title>
+                  </v-card>
+                </v-flex>
+              </template>
             </v-layout>
           </v-container>
         </v-flex>
@@ -192,227 +61,71 @@
     </section>
 
     <section>
-      <v-container fill-height pa-5 >
-
-        <v-layout
-          row
-          wrap
-          class="pa-2"
-          align-center
-          >
+      <v-container fill-height pa-5>
+        <v-layout row wrap class="pa-2" align-center>
           <v-flex xs12 pb-5 ml-2>
+            <a id="sale"></a>
             <div class="text-xs-center">
-              <h2 class="headline py-2"><a id="sale"></a>For sale</h2>
-          </div>
+              <h2 class="display-2 py-2">Car for sale</h2>
+              <span class="subheading">
+                All cars are fully inspected! Warranty on a powertrain (engine, transmission, suspension) for an additional fee.
+                <a href="#contact">Contact us</a> to pre order vehicle that you always wanted.
+              </span>
+            </div>
           </v-flex>
-
-          <v-flex xs12 md6 lg4 pa-2>
-            <v-card>
-              <v-img
-                class="white--text"
-                height="200px"
-                src="IMG_4168.jpg"
-              >
-                <v-container fill-height fluid pa-1>
-                  <v-layout fill-height>
-                    <v-flex xs12 align-end flexbox>
-                      <v-chip class="title red--text white elevation-2"><strike>15.000</strike>  </v-chip>
-                    </v-flex>
-
-                  </v-layout>
-                  <v-layout fill-height align-end>
-                    <v-flex xs12 flexbox right>
-                      <v-chip class="title gray--text white elevation-2 right">15.000  </v-chip>
-                    </v-flex>
-
-                  </v-layout>
-                </v-container>
-
-              </v-img>
-              <v-card-title>
-                <div>
-                  <span>Honda CRZ, 2016</span> <v-spacer/><br>
-                  <span class="grey--text">Manual transmision .asdfas .a sdfa. asdfa.s </span><br>
-                </div>
-              </v-card-title>
-              <v-card-actions>
-                <v-btn flat color="orange">More details</v-btn>
-                <v-btn flat color="orange">Test drive</v-btn>
-              </v-card-actions>
-            </v-card>
-          </v-flex>
-
-          <v-flex xs12 md6 lg4 pa-2>
-            <v-card>
-              <v-img
-                class="white--text"
-                height="200px"
-                src="IMG_4168.jpg"
-              >
-                <v-container fill-height fluid>
-                  <v-layout fill-height>
-                    <v-flex xs12 align-end flexbox>
-                      <v-chip class="title red--text white elevation-2"><strike>15.000</strike>  </v-chip>
-                    </v-flex>
-                  </v-layout>
-                </v-container>
-              </v-img>
-              <v-card-title>
-                <div>
-                  <span>Honda CRZ, 2016</span> <v-spacer/><span>$9.999</span><br>
-                  <span class="grey--text">Manual transmision .asdfas .a sdfa. asdfa.s </span><br>
-                </div>
-              </v-card-title>
-              <v-card-actions>
-                <v-btn flat color="orange">More details</v-btn>
-                <v-btn flat color="orange">Test drive</v-btn>
-              </v-card-actions>
-            </v-card>
-          </v-flex>
-
-          <v-flex xs12 md6 lg4 pa-2>
-            <v-card>
-              <v-img
-                class="white--text"
-                height="200px"
-                src="IMG_4168.jpg"
-              >
-                <v-container fill-height fluid>
-                  <v-layout fill-height>
-                    <v-flex xs12 align-end flexbox>
-                      <v-chip class="title red--text white elevation-2"><strike>15.000</strike>  </v-chip>
-                    </v-flex>
-                  </v-layout>
-                </v-container>
-              </v-img>
-              <v-card-title>
-                <div>
-                  <span>Honda CRZ, 2016</span> <v-spacer/><span>$9.999</span><br>
-                  <span class="grey--text">Manual transmision .asdfas .a sdfa. asdfa.s </span><br>
-                </div>
-              </v-card-title>
-              <v-card-actions>
-                <v-btn flat color="orange">More details</v-btn>
-                <v-btn flat color="orange">Test drive</v-btn>
-              </v-card-actions>
-            </v-card>
-          </v-flex>
-
-          <v-flex xs12 md6 lg4 pa-2>
-            <v-card>
-              <v-img
-                class="white--text"
-                height="200px"
-                src="IMG_4168.jpg"
-              >
-                <v-container fill-height fluid>
-                  <v-layout fill-height>
-                    <v-flex xs12 align-end flexbox>
-                      <v-chip class="title red--text white elevation-2"><strike>15.000</strike>  </v-chip>
-                    </v-flex>
-                  </v-layout>
-                </v-container>
-              </v-img>
-              <v-card-title>
-                <div>
-                  <span>Honda CRZ, 2016</span> <v-spacer/><span>$9.999</span><br>
-                  <span class="grey--text">Manual transmision .asdfas .a sdfa. asdfa.s </span><br>
-                </div>
-              </v-card-title>
-              <v-card-actions>
-                <v-btn flat color="orange">More details</v-btn>
-                <v-btn flat color="orange">Test drive</v-btn>
-              </v-card-actions>
-            </v-card>
-          </v-flex>
-
-          <v-flex xs12 md6 lg4 pa-2>
-            <v-card>
-              <v-img
-                class="white--text"
-                height="200px"
-                src="IMG_4168.jpg"
-              >
-                <v-container fill-height fluid>
-                  <v-layout fill-height>
-                    <v-flex xs12 align-end flexbox>
-                      <v-chip class="title red--text white elevation-2"><strike>15.000</strike>  </v-chip>
-                    </v-flex>
-                  </v-layout>
-                </v-container>
-              </v-img>
-              <v-card-title>
-                <div>
-                  <span>Honda CRZ, 2016</span> <v-spacer/><span>$9.999</span><br>
-                  <span class="grey--text">Manual transmision .asdfas .a sdfa. asdfa.s </span><br>
-                </div>
-              </v-card-title>
-              <v-card-actions>
-                <v-btn flat color="orange">More details</v-btn>
-                <v-btn flat color="orange">Test drive</v-btn>
-              </v-card-actions>
-            </v-card>
-          </v-flex>
-
-          <v-flex xs12 md6 lg4 pa-2>
-            <v-card>
-              <v-img
-                class="white--text"
-                height="200px"
-                src="IMG_4168.jpg"
-              >
-                <v-container fill-height fluid>
-                  <v-layout fill-height>
-                    <v-flex xs12 align-end flexbox>
-                      <v-chip class="title red--text white elevation-2"><strike>15.000</strike>  </v-chip>
-                    </v-flex>
-                  </v-layout>
-                </v-container>
-              </v-img>
-              <v-card-title>
-                <div>
-                  <span>Honda CRZ, 2016</span> <v-spacer/><span>$9.999</span><br>
-                  <span class="grey--text">Manual transmision .asdfas .a sdfa. asdfa.s </span><br>
-                </div>
-              </v-card-title>
-              <v-card-actions>
-                <v-btn flat color="orange">More details</v-btn>
-                <v-btn flat color="orange">Test drive</v-btn>
-              </v-card-actions>
-            </v-card>
-          </v-flex>
-
+          <template v-for="car in cars">
+            <v-flex xs12 md6 lg4 pa-2>
+              <v-card>
+                <v-img height="200px" :src="'cars/'+car.name+'/1.jpg'">
+                  <v-container fill-height fluid>
+                    <v-layout fill-height>
+                      <v-flex xs12 align-end flexbox>
+                        <v-chip class="subheading red--text white elevation-2"><strike>{{car.oldPrice}}</strike>  </v-chip>
+                      </v-flex>
+                    </v-layout>
+                    <v-layout fill-height align-end>
+                      <v-flex xs12 flexbox right>
+                        <v-chip class="title gray--text white elevation-2 right">{{car.newPrice}}</v-chip>
+                      </v-flex>
+                    </v-layout>
+                  </v-container>
+                </v-img>
+                <v-card-title>
+                  <div>
+                    <span class="title">{{car.title}}</span><br><br>
+                    <span class="grey--text">{{car.desc}}</span>
+                  </div>
+                </v-card-title>
+                <v-card-actions>
+                  <v-btn flat color="indigo">More details</v-btn>
+                  <v-btn flat href="#contact" color="indigo">Test drive</v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-flex>
+          </template>
         </v-layout>
       </v-container>
     </section>
 
     <section class="white">
-      <v-container fill-height  px-5 >
-
-        <v-layout
-          row
-          wrap
-          class="pa-2"
-          align-center
-          >
-          <v-flex xs12 class="my-3">
+      <v-container fill-height px-5>
+        <v-layout row wrap class="pa-2" align-center>
+          <v-flex xs12 pb-5 ml-2>
+            <a id="promo"></a>
             <div class="text-xs-center">
-              <h2 class="headline"><a id="promo"></a>Promotions</h2>
-              <span class="subheading">
-                Cras facilisis mi vitae nunc
-              </span>
+              <h2 class="display-2">Promotions</h2>
             </div>
           </v-flex>
 
           <v-flex xs12 md6 lg4 pa-2>
             <v-card class="elevation-0 transparent">
               <v-card-title primary-title class="layout justify-center">
-                <div class="headline text-xs-center">Material Design</div>
+                <div class="headline text-xs-center">Free Oil Change</div>
               </v-card-title>
               <v-card-text>
-                Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                When you do wheel alignment with us you'll get free Oil change.
+                <v-chip class="subheading elevation-2">WHEELS-AND-OIL</v-chip>
+                Just show this promotional code.
               </v-card-text>
             </v-card>
           </v-flex>
@@ -420,12 +133,12 @@
           <v-flex xs12 md6 lg4 pa-2>
             <v-card class="elevation-0 transparent">
               <v-card-title primary-title class="layout justify-center">
-                <div class="headline text-xs-center">Material Design</div>
+                <div class="headline text-xs-center">$200 Referal</div>
               </v-card-title>
               <v-card-text>
-                Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                Bring your friend. You'll get
+                <v-chip class="subheading  elevation-2">$200 cache</v-chip>
+                When your friend purchase one of our <a href="#sale">cars for sale</a>.
               </v-card-text>
             </v-card>
           </v-flex>
@@ -433,12 +146,12 @@
           <v-flex xs12 md6 lg4 pa-2>
             <v-card class="elevation-0 transparent">
               <v-card-title primary-title class="layout justify-center">
-                <div class="headline text-xs-center">Material Design</div>
+                <div class="headline text-xs-center">Free Inspection</div>
               </v-card-title>
               <v-card-text>
-                Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                When you service your car with total amount about $1000.
+                You are eligible for free inspection
+                <v-chip class="subheading elevation-2">PREMIUM-MEMBER</v-chip>
               </v-card-text>
             </v-card>
           </v-flex>
@@ -542,7 +255,26 @@
 export default {
   name: "index",
   data: () => ({
-      feedback: "",
+      services: [
+        "Air conditioning",
+        "Wheel balancing",
+        "Wheel alignment",
+        "Engine check",
+        "Engine rebuild",
+        "Oil change",
+        "Electrical service",
+        "Break change",
+        "Inspection",
+      ],
+      cars:[
+        {
+          name: "mazda",
+          title:"2012 Mazda Miata MX5 17K mil",
+          oldPrice: "$15.000",
+          newPrice: "$9.500",
+          desc: "Grand Touring; CONVERTIBLE 2-DR; 2.0L L4 DOHC 16V; 6-Speed Manual; RWD"
+        }
+      ],
     }),
   }
 </script>
