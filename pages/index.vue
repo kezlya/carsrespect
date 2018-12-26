@@ -213,17 +213,25 @@
                 height="200px"
                 src="IMG_4168.jpg"
               >
-                <v-container fill-height fluid>
+                <v-container fill-height fluid pa-1>
                   <v-layout fill-height>
                     <v-flex xs12 align-end flexbox>
                       <v-chip class="title red--text white elevation-2"><strike>15.000</strike>  </v-chip>
                     </v-flex>
+
+                  </v-layout>
+                  <v-layout fill-height align-end>
+                    <v-flex xs12 flexbox right>
+                      <v-chip class="title gray--text white elevation-2 right">15.000  </v-chip>
+                    </v-flex>
+
                   </v-layout>
                 </v-container>
+
               </v-img>
               <v-card-title>
                 <div>
-                  <span>Honda CRZ, 2016</span> <v-spacer/><span>$9.999</span><br>
+                  <span>Honda CRZ, 2016</span> <v-spacer/><br>
                   <span class="grey--text">Manual transmision .asdfas .a sdfa. asdfa.s </span><br>
                 </div>
               </v-card-title>
@@ -482,7 +490,7 @@
     </section>
 
     <section>
-<a id="contact"></a>
+      <a id="contact"></a>
         <v-layout row wrap justify-center align-center white class="my-0 pa-0">
           <v-flex xs12 sm8>
             <iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d48957.93166082604!2d-75.23429345152195!3d39.921909032951184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x89c6b7d8d4b54beb%3A0x89f514d88c3e58c1!2sPhiladelphia%2C+Pennsylvania%2C+USA!3m2!1d39.9525839!2d-75.1652215!4m5!1s0x89c6c3f2d28dcdfb%3A0x352e216800820a8c!2s522+Ellis+Ave+Unit+1-C%2C+Darby%2C+PA+19023%2C+USA!3m2!1d39.9112115!2d-75.2572854!5e0!3m2!1sen!2sru!4v1545740728637" height="450px" frameborder="0" style="border:0" allowfullscreen></iframe>
