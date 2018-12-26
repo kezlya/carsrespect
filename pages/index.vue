@@ -61,14 +61,14 @@
     </section>
 
     <section>
-      <v-container fill-height pa-5 >
+      <v-container fill-height pa-5>
         <v-layout row wrap class="pa-2" align-center>
           <v-flex xs12 pb-5 ml-2>
             <a id="sale"></a>
             <div class="text-xs-center">
-              <h2 class="display-2 py-2">For sale</h2>
+              <h2 class="display-2 py-2">Car for sale</h2>
               <span class="subheading">
-                All cars are fully inspected! One year warranty on mechanical parts.
+                All cars are fully inspected! Warranty on a powertrain (engine, transmission, suspension) for an additional fee.
                 <a href="#contact">Contact us</a> to pre order vehicle that you always wanted.
               </span>
             </div>
@@ -98,39 +98,29 @@
               </v-card>
             </v-flex>
           </template>
-
-
         </v-layout>
       </v-container>
     </section>
 
     <section class="white">
-      <v-container fill-height  px-5 >
-
-        <v-layout
-          row
-          wrap
-          class="pa-2"
-          align-center
-          >
-          <v-flex xs12 class="my-3">
+      <v-container fill-height px-5>
+        <v-layout row wrap class="pa-2" align-center>
+          <v-flex xs12 pb-5 ml-2>
+            <a id="promo"></a>
             <div class="text-xs-center">
-              <h2 class="headline"><a id="promo"></a>Promotions</h2>
-              <span class="subheading">
-                Cras facilisis mi vitae nunc
-              </span>
+              <h2 class="display-2">Promotions</h2>
             </div>
           </v-flex>
 
           <v-flex xs12 md6 lg4 pa-2>
             <v-card class="elevation-0 transparent">
               <v-card-title primary-title class="layout justify-center">
-                <div class="headline text-xs-center">Material Design</div>
+                <div class="headline text-xs-center">Free Oil Change</div>
               </v-card-title>
               <v-card-text>
-                Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                When you do wheel alignment with us you'll get free Oil change.
+                <v-chip class="subheading elevation-2">WHEELS-AND-OIL</v-chip>
+                Just show this promotional code.
               </v-card-text>
             </v-card>
           </v-flex>
@@ -138,12 +128,12 @@
           <v-flex xs12 md6 lg4 pa-2>
             <v-card class="elevation-0 transparent">
               <v-card-title primary-title class="layout justify-center">
-                <div class="headline text-xs-center">Material Design</div>
+                <div class="headline text-xs-center">$200 Referal</div>
               </v-card-title>
               <v-card-text>
-                Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                Bring your friend. You'll get
+                <v-chip class="subheading  elevation-2">$200 cache</v-chip>
+                When your friend purchase one of our <a href="#sale">cars for sale</a>.
               </v-card-text>
             </v-card>
           </v-flex>
@@ -151,12 +141,12 @@
           <v-flex xs12 md6 lg4 pa-2>
             <v-card class="elevation-0 transparent">
               <v-card-title primary-title class="layout justify-center">
-                <div class="headline text-xs-center">Material Design</div>
+                <div class="headline text-xs-center">Free Inspection</div>
               </v-card-title>
               <v-card-text>
-                Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                When you service your car with total amount about $1000.
+                You are eligible for free inspection
+                <v-chip class="subheading elevation-2">PREMIUM-MEMBER</v-chip>
               </v-card-text>
             </v-card>
           </v-flex>
