@@ -1,190 +1,58 @@
 <template>
   <div style="background-color: #f7f7f7;">
+
     <section >
-
       <v-parallax src="subaru.png" height="600">
-
         <v-container>
-
           <v-layout row align-center justify-center stuck>
-
             <v-flex sm12 md12 lg9>
             </v-flex>
-
-            <v-flex sm12 md12 lg3 align-center justify-center mt-5>
-              <v-card flat tile class="text-xs-center justify-center white elevation-4 pa-3 mt-5" width="Fill">
+            <v-flex sm12 md12 lg4 align-center justify-center mt-5>
+              <v-card flat tile class="text-xs-center justify-center white elevation-4 pa-2 mt-4" width="Fill">
                 <v-img src="inspection.png" alt="Inspection" height="200" contain ></v-img>
-                <v-card-title  class="title-xs-center">
+                <v-card-title class="title-xs-center">
                     <h3 class="display-1 pa-2">Full service auto repair shop</h3>
-                    <p class="mt-2 body-1">Located two hours south of Sydney in the Southern Highlands of New South Wales, ...</p>
                 </v-card-title>
+                <v-card-text>
+                  <h3 class="text-center">All mechanics are Certified</h3>
+                  <span>just 7mil away </span><v-btn>Get directions</v-btn>
+                </v-card-text>
               </v-card>
             </v-flex>
-
           </v-layout>
-
         </v-container>
-
       </v-parallax>
     </section>
 
     <section>
-
-      <v-layout
-        column
-        wrap
-        class="py-5"
-        align-center
-        white
-        >
+      <v-layout column wrap class="py-5" align-center white>
         <v-flex xs12 sm4 class="my-3">
           <div class="text-xs-center">
-            <h2 class="headline py-2">Services</h2>
+            <h2 class="display-2 py-2">Services</h2>
             <span class="subheading"><a id="services"></a>
-              We service all makes and models. Domestic and Foreign
+              We service all makes and models. Domestic and Foreign.
             </span>
           </div>
         </v-flex>
-
         <v-flex xs12>
           <v-container grid-list-xl>
             <v-layout row wrap align-center>
-
-              <v-flex xs12 md4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-title primary-title class="layout justify-center">
-                    <v-layout>
-                      <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>
-                      </v-flex>
-                      <v-flex xs6 text-xs-left>
-                        <div class="headline py-3">Fast development</div>
-                      </v-flex>
-                    </v-layout>
-                  </v-card-title>
-                </v-card>
-              </v-flex>
-
-              <v-flex xs12 md4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-title primary-title class="layout justify-center">
-                    <v-layout>
-                      <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>
-                      </v-flex>
-                      <v-flex xs6 text-xs-left>
-                        <div class="headline py-3">Fast development</div>
-                      </v-flex>
-                    </v-layout>
-                  </v-card-title>
-                </v-card>
-              </v-flex>
-
-              <v-flex xs12 md4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-title primary-title class="layout justify-center">
-                    <v-layout>
-                      <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>
-                      </v-flex>
-                      <v-flex xs6 text-xs-left>
-                        <div class="headline py-3">Fast development</div>
-                      </v-flex>
-                    </v-layout>
-                  </v-card-title>
-                </v-card>
-              </v-flex>
-
-              <v-flex xs12 md4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-title primary-title class="layout justify-center">
-                    <v-layout>
-                      <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>
-                      </v-flex>
-                      <v-flex xs6 text-xs-left>
-                        <div class="headline py-3">Fast development</div>
-                      </v-flex>
-                    </v-layout>
-                  </v-card-title>
-                </v-card>
-              </v-flex>
-
-              <v-flex xs12 md4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-title primary-title class="layout justify-center">
-                    <v-layout>
-                      <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>
-                      </v-flex>
-                      <v-flex xs6 text-xs-left>
-                        <div class="headline py-3">Fast development</div>
-                      </v-flex>
-                    </v-layout>
-                  </v-card-title>
-                </v-card>
-              </v-flex>
-
-              <v-flex xs12 md4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-title primary-title class="layout justify-center">
-                    <v-layout>
-                      <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>
-                      </v-flex>
-                      <v-flex xs6 text-xs-left>
-                        <div class="headline py-3">Fast development</div>
-                      </v-flex>
-                    </v-layout>
-                  </v-card-title>
-                </v-card>
-              </v-flex>
-
-              <v-flex xs12 md4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-title primary-title class="layout justify-center">
-                    <v-layout>
-                      <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>
-                      </v-flex>
-                      <v-flex xs6 text-xs-left>
-                        <div class="headline py-3">Fast development</div>
-                      </v-flex>
-                    </v-layout>
-                  </v-card-title>
-                </v-card>
-              </v-flex>
-
-              <v-flex xs12 md4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-title primary-title class="layout justify-center">
-                    <v-layout>
-                      <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>
-                      </v-flex>
-                      <v-flex xs6 text-xs-left>
-                        <div class="headline py-3">Fast development</div>
-                      </v-flex>
-                    </v-layout>
-                  </v-card-title>
-                </v-card>
-              </v-flex>
-
-              <v-flex xs12 md4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-title primary-title class="layout justify-center">
-                    <v-layout>
-                      <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>
-                      </v-flex>
-                      <v-flex xs6 text-xs-left>
-                        <div class="headline py-3">Fast development</div>
-                      </v-flex>
-                    </v-layout>
-                  </v-card-title>
-                </v-card>
-              </v-flex>
-
+              <template v-for="service in services">
+                <v-flex xs12 md4>
+                  <v-card class="elevation-0 transparent">
+                    <v-card-title primary-title class="layout justify-center">
+                      <v-layout>
+                        <v-flex xs5>
+                          <v-img :src="'services/'+service.split(' ').join('')+'.png'" class="center-right" :alt="service" height="64px" contain></v-img>
+                        </v-flex>
+                        <v-flex xs6 text-xs-left>
+                          <div class="headline py-3">{{service}}</div>
+                        </v-flex>
+                      </v-layout>
+                    </v-card-title>
+                  </v-card>
+                </v-flex>
+              </template>
             </v-layout>
           </v-container>
         </v-flex>
@@ -534,7 +402,17 @@
 export default {
   name: "index",
   data: () => ({
-      feedback: "",
+      services: [
+        "Air conditioning",
+        "Wheel balancing",
+        "Wheel alignment",
+        "Engine check",
+        "Engine rebuild",
+        "Oil change",
+        "Electrical service",
+        "Break change",
+        "Inspection",
+      ],
     }),
   }
 </script>
