@@ -1,7 +1,7 @@
 <template>
   <div style="background-color: #f7f7f7;">
 
-    <section >
+    <section>
       <v-parallax src="subaru.png" height="600">
         <v-container>
           <v-layout row align-center justify-center stuck>
@@ -65,20 +65,20 @@
           <v-flex xs12 pb-5 ml-2>
             <a id="sale"></a>
             <div class="text-xs-center">
-              <h2 class="display-2 py-2">Car for sale</h2>
+              <h2 class="display-2 py-2">Cars for sale</h2>
               <span class="subheading">
                 All cars are fully inspected! Warranty on a powertrain (engine, transmission, suspension) for an additional fee.
-                <a href="#contact">Contact us</a> to pre order vehicle that you always wanted.
+                <a href="#contact">Contact us</a> to pre order the vehicle that you have always wanted.
               </span>
             </div>
           </v-flex>
           <template v-for="car in cars">
             <v-flex xs12 md6 lg4 pa-2>
               <v-card>
-                <v-img height="200px" :src="require('static/cars/'+car.name+'/1.jpg')">
+                <v-img height="200px" :src="'cars/'+car.name+'/1.jpg'">
                   <v-container fill-height fluid pa-1>
                     <v-layout fill-height>
-                      <v-flex xs12 align-end flexbox>
+                      <v-flex v-if="car.oldPrice" xs12 align-end flexbox>
                         <v-chip class="subheading red--text white elevation-2"><strike>{{car.oldPrice}}</strike>  </v-chip>
                       </v-flex>
                     </v-layout>
@@ -96,8 +96,8 @@
                   </div>
                 </v-card-title>
                 <v-card-actions>
-                  <v-btn flat color="indigo">More details</v-btn>
-                  <v-btn flat href="#contact" color="indigo">Test drive</v-btn>
+                  <v-btn v-if="car.action1" flat color="indigo">{{car.action1}}</v-btn>
+                  <v-btn v-if="car.action2" flat href="#contact" color="indigo">{{car.action2}}</v-btn>
                 </v-card-actions>
               </v-card>
             </v-flex>
@@ -122,9 +122,9 @@
                 <div class="headline text-xs-center">Free Oil Change</div>
               </v-card-title>
               <v-card-text>
-                When you do wheel alignment with us you'll get free Oil change.
-                <v-chip class="subheading elevation-2">WHEELS-AND-OIL</v-chip>
+                When you do a wheel alignment with us you'll get a free oil change.
                 Just show this promotional code.
+                <v-chip class="subheading elevation-2">WHEELS-AND-OIL</v-chip>
               </v-card-text>
             </v-card>
           </v-flex>
@@ -135,9 +135,9 @@
                 <div class="headline text-xs-center">$200 Referal</div>
               </v-card-title>
               <v-card-text>
-                Bring your friend. You'll get
-                <v-chip class="subheading  elevation-2">$200 cache</v-chip>
-                When your friend purchase one of our <a href="#sale">cars for sale</a>.
+                If you bring your friend, you'll get
+                <v-chip class="subheading  elevation-2">$200 cash</v-chip>
+                when your friend purchase one of our <a href="#sale">cars for sale</a>
               </v-card-text>
             </v-card>
           </v-flex>
@@ -148,8 +148,8 @@
                 <div class="headline text-xs-center">Free Inspection</div>
               </v-card-title>
               <v-card-text>
-                When you service your car with total amount about $1000.
-                You are eligible for free inspection
+                When you service your car for the total amount of $1000,
+                you are eligible for a free inspection
                 <v-chip class="subheading elevation-2">PREMIUM-MEMBER</v-chip>
               </v-card-text>
             </v-card>
@@ -213,7 +213,7 @@
                 <div class="headline">Contact us</div>
               </v-card-title>
               <v-card-text>
-                Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
+                We are open <b>Monday - Friday 8am - 5pm </b>
               </v-card-text>
               <v-list class="transparent">
                 <v-list-tile>
@@ -229,7 +229,12 @@
                     <v-icon class="blue--text text--lighten-2">place</v-icon>
                   </v-list-tile-action>
                   <v-list-tile-content>
-                    <v-list-tile-title>Chicago, US</v-list-tile-title>
+                    <v-list-tile-title>
+                      522 Ellis Ave Unit 1-C
+                    </v-list-tile-title>
+                    <v-list-tile-title>
+                      Darby, PA 19023, USA
+                    </v-list-tile-title>
                   </v-list-tile-content>
                 </v-list-tile>
                 <v-list-tile>
@@ -237,7 +242,7 @@
                     <v-icon class="blue--text text--lighten-2">email</v-icon>
                   </v-list-tile-action>
                   <v-list-tile-content>
-                    <v-list-tile-title>john@vuetifyjs.com</v-list-tile-title>
+                    <v-list-tile-title>carsrespect@gmail.com</v-list-tile-title>
                   </v-list-tile-content>
                 </v-list-tile>
               </v-list>
@@ -267,18 +272,55 @@ export default {
       ],
       cars:[
         {
-          name: "mazda",
-          title:"2012 Mazda Miata MX5 17K mil",
-          oldPrice: "$15.000",
-          newPrice: "$9.500",
-          desc: "Grand Touring; CONVERTIBLE 2-DR; 2.0L L4 DOHC 16V; 6-Speed Manual; RWD"
+          name: "cadilac",
+          title:"2013 Cadilac XTS 2013",
+          oldPrice: "$17,000",
+          newPrice: "SOLD",
+          desc: "Platinum edition; Cutting-edge multimedia interface; FWD",
+          action2: "oder same"
+        },
+        {
+          name: "mercedes",
+          title:"2002 Mercedes Benz S55 AMG",
+          newPrice: "$8,750",
+          desc: "Leather interior Seats heated and cooled seat front seat have a massage. Navigation",
+          action1: "view",
+          action2: "test drive"
         },
         {
           name: "mazda",
-          title:"2012 Mazda Miata MX5 17K mil",
-          oldPrice: "$15.000",
-          newPrice: "$9.500",
-          desc: "Grand Touring; CONVERTIBLE 2-DR; 2.0L L4 DOHC 16V; 6-Speed Manual; RWD"
+          title:"2012 Mazda Miata MX5",
+          oldPrice: "$12.000",
+          newPrice: "$9,500",
+          desc: "Grand Touring; CONVERTIBLE 2-DR; 2.0L L4 DOHC 16V; 6-Speed Manual; RWD",
+          action1: "view",
+          action2: "test drive"
+        },
+        {
+          name: "ram-truck",
+          title:"2013 Dodge RAM 1500 4x4",
+          oldPrice: "$20,000",
+          newPrice: "$19,000",
+          desc: "Tradesman/Express 4x4 Quad Cab; 3.6L; 6-speed",
+          action1: "view",
+          action2: "test drive"
+        },
+        {
+          name: "ram-van",
+          title:"2016 RAM Promaster",
+          newPrice: "$14,000",
+          desc: "City cargo van; FWD; Gas; 4 cylinders",
+          action1: "view",
+          action2: "test drive"
+        },
+        {
+          name: "honda-crz",
+          title:"2016 Honda CRZ",
+          oldPrice: "$9,500",
+          newPrice: "$10,500",
+          desc: "2 doors; 36mpg",
+          action1: "view",
+          action2: "test drive"
         }
       ],
     }),
