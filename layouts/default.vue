@@ -1,7 +1,8 @@
 <template>
   <v-app light>
     <v-toolbar color="white" elevation-4 fixed scroll-off-screen>
-      <v-toolbar-title class="headline">CarsRespect.com</v-toolbar-title>
+      <v-toolbar-title class="headline">
+        <nuxt-link to="/" style="text-decoration:none;">CarsRespect.com</nuxt-link></v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn class="title" flat href="#services">Services</v-btn>

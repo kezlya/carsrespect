@@ -83,12 +83,17 @@
                         <v-chip class="subheading red--text white elevation-2"><strike>{{car.oldPrice}}</strike>  </v-chip>
                       </v-flex>
                     </v-layout>
+                    <v-layout fill-height align-end>
+                      <v-flex xs12 flexbox right>
+                        <v-chip class="title gray--text white elevation-2 right">{{car.newPrice}}</v-chip>
+                      </v-flex>
+                    </v-layout>
                   </v-container>
                 </v-img>
                 <v-card-title>
                   <div>
-                    <span class="title">{{car.title}}</span> <v-spacer/><span>{{car.newPrice}}</span><br>
-                    <span class="grey--text">{{car.desc}}</span><br>
+                    <span class="title">{{car.title}}</span><br><br>
+                    <span class="grey--text">{{car.desc}}</span>
                   </div>
                 </v-card-title>
                 <v-card-actions>
