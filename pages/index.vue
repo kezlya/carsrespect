@@ -41,7 +41,7 @@
           <div class="text-xs-center">
             <h2 class="headline py-2">Services</h2>
             <span class="subheading"><a id="services"></a>
-              We service all makes and models. European, Asian, Domestic
+              We service all makes and models. Domestic and Foreign
             </span>
           </div>
         </v-flex>
@@ -55,7 +55,7 @@
                   <v-card-title primary-title class="layout justify-center">
                     <v-layout>
                       <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
+                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>
                       </v-flex>
                       <v-flex xs6 text-xs-left>
                         <div class="headline py-3">Fast development</div>
@@ -70,7 +70,7 @@
                   <v-card-title primary-title class="layout justify-center">
                     <v-layout>
                       <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
+                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>
                       </v-flex>
                       <v-flex xs6 text-xs-left>
                         <div class="headline py-3">Fast development</div>
@@ -85,7 +85,7 @@
                   <v-card-title primary-title class="layout justify-center">
                     <v-layout>
                       <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
+                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>
                       </v-flex>
                       <v-flex xs6 text-xs-left>
                         <div class="headline py-3">Fast development</div>
@@ -100,7 +100,7 @@
                   <v-card-title primary-title class="layout justify-center">
                     <v-layout>
                       <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
+                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>
                       </v-flex>
                       <v-flex xs6 text-xs-left>
                         <div class="headline py-3">Fast development</div>
@@ -115,7 +115,7 @@
                   <v-card-title primary-title class="layout justify-center">
                     <v-layout>
                       <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
+                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>
                       </v-flex>
                       <v-flex xs6 text-xs-left>
                         <div class="headline py-3">Fast development</div>
@@ -130,7 +130,7 @@
                   <v-card-title primary-title class="layout justify-center">
                     <v-layout>
                       <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
+                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>
                       </v-flex>
                       <v-flex xs6 text-xs-left>
                         <div class="headline py-3">Fast development</div>
@@ -145,7 +145,7 @@
                   <v-card-title primary-title class="layout justify-center">
                     <v-layout>
                       <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
+                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>
                       </v-flex>
                       <v-flex xs6 text-xs-left>
                         <div class="headline py-3">Fast development</div>
@@ -160,7 +160,7 @@
                   <v-card-title primary-title class="layout justify-center">
                     <v-layout>
                       <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
+                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>
                       </v-flex>
                       <v-flex xs6 text-xs-left>
                         <div class="headline py-3">Fast development</div>
@@ -175,7 +175,7 @@
                   <v-card-title primary-title class="layout justify-center">
                     <v-layout>
                       <v-flex xs5>
-                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>   
+                        <v-img src="inspection.png" class="center-right" alt="Inspection" height="64px" contain></v-img>
                       </v-flex>
                       <v-flex xs6 text-xs-left>
                         <div class="headline py-3">Fast development</div>
