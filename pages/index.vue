@@ -265,7 +265,7 @@ export default {
           oldPrice: "$17,000",
           newPrice: "SOLD",
           desc: "Platinum edition; Cutting-edge multimedia interface; FWD",
-          action2: "oder same"
+          action2: "order the same"
         },
         {
           name: "mercedes",
