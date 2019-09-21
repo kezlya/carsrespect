@@ -52,7 +52,7 @@
       <nuxt />
 
       <v-footer class="lighten-2 right">
-        <span class="caption">&copy; {{ new Date().getFullYear() }} CarsRespect.com </span>
+        <span class="caption">&copy; {{ new Date().getFullYear() }} CarsRespect.com</span>
       </v-footer>
     </v-content>
   </v-app>
