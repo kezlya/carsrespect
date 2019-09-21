@@ -209,7 +209,7 @@
                     <v-icon class="blue--text text--lighten-2">phone</v-icon>
                   </v-list-tile-action>
                   <v-list-tile-content>
-                    <v-list-tile-title>213-537-7737</v-list-tile-title>
+                    <v-list-tile-title>484-374-0322</v-list-tile-title>
                   </v-list-tile-content>
                 </v-list-tile>
                 <v-list-tile>
