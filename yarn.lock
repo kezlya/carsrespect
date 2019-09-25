@@ -864,6 +864,13 @@
   dependencies:
     consola "^2.3.0"
 
+"@nuxtjs/google-analytics@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/google-analytics/-/google-analytics-2.2.0.tgz#4b2072824961974109eb0bff6a95591fea92c6d9"
+  integrity sha512-Ds166zi7KAwc23gHOkKHovSdMEDJS55UJGkowT4IfVAOCE00l65J3fKI9t2P9+O5cdokXTadNiMLGZV5QM731Q==
+  dependencies:
+    vue-analytics "^5.16.2"
+
 "@nuxtjs/opencollective@^0.2.0":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@nuxtjs/opencollective/-/opencollective-0.2.1.tgz#ddf3e6a22990997322bc2b82e2455a7fbffc518d"
@@ -6622,6 +6629,11 @@ vm-browserify@0.0.4:
   integrity sha1-XX6kW7755Kb/ZflUOOCofDV9WnM=
   dependencies:
     indexof "0.0.1"
+
+vue-analytics@^5.16.2:
+  version "5.17.2"
+  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.17.2.tgz#5a43cbd907a8b5d2c27e3df5046245604fa8c83e"
+  integrity sha512-Vfbn5laOG8OVetrBNRfV64y/N5VVyw1PPC4LiowZFh58UOsfsGH8w+ZZn0pyMelSZmz9uxkgG5dNnce4bwJ6jg==
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.1"
