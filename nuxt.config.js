@@ -1,7 +1,7 @@
 const pkg = require('./package')
 
 module.exports = {
-  mode: 'spa',
+  mode: 'universal',
 
   /*
   ** Headers of the page
@@ -42,6 +42,8 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    // Simple usage
+    ['@nuxtjs/google-analytics', {id: 'UA-33484562-1'}]
   ],
 
   /*
@@ -54,7 +56,7 @@ module.exports = {
     extend (config, { isDev, isClient }) {
       //if (!isDev) {
         // relative links, please.
-        config.output.publicPath = '/_nuxt/'
+        //config.output.publicPath = '/_nuxt/'
       //}
       return config;
     }
