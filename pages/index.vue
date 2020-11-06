@@ -372,7 +372,7 @@ export default {
         action2: "test drive",
       },
       {
-        name: "Trailer",
+        name: "trailer",
         title: "2019 Trailer Camper",
         oldPrice: "$22,500",
         newPrice: "$19,500",
