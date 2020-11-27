@@ -124,7 +124,7 @@
                   <v-btn
                     v-if="car.action1"
                     flat
-                    :href="'/car?name=' + car.name"
+                    :to="'/car?name=' + car.name"
                     color="indigo"
                     >{{ car.action1 }}</v-btn
                   >
