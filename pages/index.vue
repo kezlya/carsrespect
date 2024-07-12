@@ -182,7 +182,7 @@
               <div class="headline">Contact us</div>
             </v-card-title>
             <v-card-text>
-              We are open: <b>Monday - Friday 8am - 5pm </b>
+              We are open: <b>Monday - Friday 8am - 6pm </b>
             </v-card-text>
             <v-list class="transparent">
               <v-list-tile>

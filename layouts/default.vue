@@ -6,7 +6,6 @@
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn class="title" flat href="/#services">Services</v-btn>
-        <v-btn class="title" flat href="/#sale">Sale</v-btn>
         <v-btn class="title" flat href="/#promo">Promotions</v-btn>
         <v-btn class="title" flat href="/#partners">Partners</v-btn>
         <v-btn class="title" flat href="/#contact">Contacts</v-btn>
