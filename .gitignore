@@ -83,3 +83,5 @@ dist
 firebase.json
 .firebase
 package-lock.json
+.DS_Store
+docs/.DS_Store

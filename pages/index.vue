@@ -76,73 +76,6 @@
       </v-layout>
     </section>
 
-    <section>
-      <v-container fill-height pa-5>
-        <v-layout row wrap class="pa-2" align-center>
-          <a id="sale"></a>
-          <v-flex xs12 pb-5 ml-2>
-            <div class="text-xs-center">
-              <h2 class="display-2 py-2">Cars for sale</h2>
-              <span class="subheading">
-                All cars are fully inspected! Warranty on a powertrain (engine,
-                transmission, suspension) for an additional fee.
-                <a href="#contact">Contact us</a> to pre order the vehicle that
-                you have always wanted.
-              </span>
-            </div>
-          </v-flex>
-          <template v-for="car in cars">
-            <v-flex xs12 md6 lg4 pa-2>
-              <v-card>
-                <v-img height="200px" :src="'cars/' + car.name + '/1.jpg'">
-                  <v-container fill-height fluid pa-1>
-                    <v-layout fill-height>
-                      <v-flex v-if="car.oldPrice" xs12 align-end flexbox>
-                        <v-chip class="subheading red--text white elevation-2"
-                          ><strike>{{ car.oldPrice }}</strike>
-                        </v-chip>
-                      </v-flex>
-                    </v-layout>
-                    <v-layout fill-height align-end>
-                      <v-flex xs12 flexbox right>
-                        <v-chip
-                          class="title gray--text white elevation-2 right"
-                          >{{ car.newPrice }}</v-chip
-                        >
-                      </v-flex>
-                    </v-layout>
-                  </v-container>
-                </v-img>
-                <v-card-title>
-                  <div>
-                    <span class="title">{{ car.title }}</span
-                    ><br /><br />
-                    <span class="grey--text">{{ car.desc }}</span>
-                  </div>
-                </v-card-title>
-                <v-card-actions>
-                  <v-btn
-                    v-if="car.action1"
-                    flat
-                    :href="'/car?name=' + car.name"
-                    color="indigo"
-                    >{{ car.action1 }}</v-btn
-                  >
-                  <v-btn
-                    v-if="car.action2"
-                    flat
-                    href="#contact"
-                    color="indigo"
-                    >{{ car.action2 }}</v-btn
-                  >
-                </v-card-actions>
-              </v-card>
-            </v-flex>
-          </template>
-        </v-layout>
-      </v-container>
-    </section>
-
     <section class="white">
       <v-container fill-height px-5>
         <v-layout row wrap class="pa-2" align-center>
@@ -152,8 +85,8 @@
               <h2 class="display-2">Promotions</h2>
             </div>
           </v-flex>
-
-          <v-flex xs12 md6 lg4 pa-2>
+    
+          <v-flex xs12 md6 lg6 pa-2>
             <v-card class="elevation-0 transparent">
               <v-card-title primary-title class="layout justify-center">
                 <div class="headline text-xs-center">Free Oil Change</div>
@@ -165,22 +98,8 @@
               </v-card-text>
             </v-card>
           </v-flex>
-
-          <v-flex xs12 md6 lg4 pa-2>
-            <v-card class="elevation-0 transparent">
-              <v-card-title primary-title class="layout justify-center">
-                <div class="headline text-xs-center">$200 Referal</div>
-              </v-card-title>
-              <v-card-text>
-                If you bring your friend, you'll get
-                <v-chip class="subheading elevation-2">$200 cash</v-chip>
-                when your friend purchase one of our
-                <a href="#sale">cars for sale</a>
-              </v-card-text>
-            </v-card>
-          </v-flex>
-
-          <v-flex xs12 md6 lg4 pa-2>
+    
+          <v-flex xs12 md6 lg6 pa-2>
             <v-card class="elevation-0 transparent">
               <v-card-title primary-title class="layout justify-center">
                 <div class="headline text-xs-center">Free Inspection</div>
@@ -263,7 +182,7 @@
               <div class="headline">Contact us</div>
             </v-card-title>
             <v-card-text>
-              We are open: <b>Monday - Friday 8am - 5pm </b>
+              We are open: <b>Monday - Friday 8am - 6pm </b>
             </v-card-text>
             <v-list class="transparent">
               <v-list-tile>
@@ -315,70 +234,6 @@ export default {
       "Electrical service",
       "Break change",
       "Inspection",
-    ],
-    cars: [
-      {
-        name: "cadilac",
-        title: "2013 Cadilac XTS 2013",
-        oldPrice: "$17,000",
-        newPrice: "SOLD",
-        desc: "Platinum edition; Cutting-edge multimedia interface; FWD",
-        action2: "order the same",
-      },
-      {
-        name: "mercedes",
-        title: "2002 Mercedes Benz S55 AMG",
-        oldPrice: "$8,750",
-        newPrice: "SOLD",
-        desc:
-          "Leather interior Seats heated and cooled seat front seat have a massage. Navigation",
-        action1: "view",
-        action2: "test drive",
-      },
-      {
-        name: "mazda",
-        title: "2012 Mazda Miata MX5",
-        oldPrice: "$12,000",
-        newPrice: "$9,500",
-        desc:
-          "Grand Touring; CONVERTIBLE 2-DR; 2.0L L4 DOHC 16V; 6-Speed Manual; RWD",
-        action1: "view",
-        action2: "test drive",
-      },
-      {
-        name: "ram_truck",
-        title: "2013 Dodge RAM 1500 4x4",
-        oldPrice: "$20,000",
-        newPrice: "$19,000",
-        desc: "Tradesman/Express 4x4 Quad Cab; 3.6L; 6-speed",
-        action1: "view",
-        action2: "test drive",
-      },
-      {
-        name: "ram_van",
-        title: "2016 RAM Promaster",
-        newPrice: "$14,000",
-        desc: "City cargo van; FWD; Gas; 4 cylinders",
-        action1: "view",
-        action2: "test drive",
-      },
-      {
-        name: "honda_crz",
-        title: "2016 Honda CRZ",
-        oldPrice: "$10,500",
-        newPrice: "$9,500",
-        desc: "2 doors; 36mpg",
-        action1: "view",
-        action2: "test drive",
-      },
-      {
-        name: "trailer",
-        title: "2019 Trailer Camper",
-        oldPrice: "$22,500",
-        newPrice: "$19,500",
-        desc: "21 ft",
-        action1: "view",
-      },
     ],
   }),
 };
